@@ -1,0 +1,79 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: rebeccapurple;
+  text-align: center;
+  margin-top: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+  color: white;
+  background-color: rebeccapurple;
+  padding: 0 5px 0 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span:hover {
+
+  background-color: transparent;
+  color: rebeccapurple;
+  padding: 0 5px 0 5px;
+}
+
+input {
+  width: 50%;
+  padding: 15px;
+  margin: 10px;
+  border-color: rebeccapurple;
+  border-radius: 25px;
+  background-color: #fff;
+
+}
+
+.textPlace{
+  text-align: center;
+}
+
+.button {
+  padding: 15px;
+  background-color: rebeccapurple;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+}
+
+.button:hover{
+  background-color: rgb(85, 23, 147);
+
+}
+
+.resetButton{
+  padding: 10px;
+  background-color: rebeccapurple;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.resetButton i{
+  background: none;
+  color: #fff;  
+}
+
+.resetButton:hover{
+  background-color: rgb(85, 23, 147);
+}
+
+
+h3 {
+  color: rgb(66, 31, 100);
+  text-align: center;
+  margin-top: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
