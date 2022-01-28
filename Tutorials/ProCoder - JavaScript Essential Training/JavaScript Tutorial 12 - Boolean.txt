@@ -1,0 +1,5 @@
+JavaScript Tutorial 12 - Boolean
+
+1. Boolean()/0 == false 
+2. Boolean(1/-22) == true
+

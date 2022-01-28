@@ -1,0 +1,39 @@
+JavaScript Tutorial 13 - Conditional Statements
+ 
+1. Conditional case 
+Structure:
+
+    if(){
+
+    } 
+    else if(){
+
+    }
+    else if(){
+
+    }
+    else{
+
+    }
+
+2. Wisher Script 
+Example: 
+        // Wisher
+        // 6am to 12am "Good Morning"
+        // 12am to 6pm "Good Afternoon"
+        // otherwise "Good Evening"
+
+        let time = new Date().getHours();
+
+        if(time>=6 && time<=12){
+            console.log('Good Morning');
+        }
+
+        else if(time>=12 && time<6){
+            console.log('Good Afternoon');
+        }
+
+        else{
+            console.log('Good Evening');
+        }
+    

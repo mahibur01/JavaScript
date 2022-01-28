@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    <p>Hello</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="add"></h2>
+
+    <h1 id="html">Hello</h1>
+    <button onclick="document.getElementById('html').innerHTML='Hi'">Click</button>
+
+    <h1 id="html2">Hello</h1>
+    <button onclick="document.getElementById('html2').style.color='red'">Change Color</button>
+
+    <br>
+
+    <img id="image" src="./images/1.png" alt="1image" width="400px" height="250px">
+    <button onclick="document.getElementById('image').src='./images/1.png'">one</button>
+    <button onclick="document.getElementById('image').src='./images/2.png'">two</button>
+    <button onclick="document.getElementById('image').src='./images/3.png'">three</button>
+
+    <br>
+
+
+    <script>
+        var a = 10;
+        var b = 5;
+        z = a + b;
+
+        let phone = 8;
+        let model = 8;
+        document.getElementById('add').innerHTML = (phone == model);
+
+        function name(firstName, lastName) {
+            console.log('Hello,' + ' ' + firstName + ' ' + lastName);
+        }
+
+        name('Alli', 'Hossain');
+
+        function math(number, number2) {
+            return number * number2;
+        }
+
+        console.log(math(8,9));
+        console.log(Math.random());
+
+        console.log(Math.floor(100000 + Math.random() * 900000));
+
+
+        // Wisher
+        // 6am to 12am "Good Morning"
+        // 12am to 6pm "Good Afternoon"
+        // otherwise "Good Evening"
+
+        let time = new Date().getHours();
+
+        if(time>=6 && time<=12){
+            console.log('Good Morning');
+        }
+
+        else if(time>=12 && time<6){
+            console.log('Good Afternoon');
+        }
+
+        else{
+            console.log('Good Evening');
+        }
+
+        let day = 0;
+
+        switch(day){
+            case 0:
+                day = "Sunday";
+            break;
+            
+            case 1:
+                day = "Monday";
+            break;
+            
+            case 2:
+                day = "Tuesday";
+            break;
+            
+            case 3:
+                day = "Wednessday";
+            break;
+            
+            case 4:
+                day = "Thursday";
+            break;
+            
+            case 5:
+                day = "Friday";
+            break;
+            
+            case 6:
+                day = "Saturday";
+            
+        }
+
+        console.log(day);
+    
+    </script>
+</body>
+
+</html>

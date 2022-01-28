@@ -1,0 +1,27 @@
+JavaScript Tutorial 06 - Data Types
+
+1. JavaScript variables can hold different data types: numbers, strings, objects and more:
+Example: 
+    let length = 16;                               // Number
+    let lastName = "Johnson";                      // String
+    let x = {firstName:"John", lastName:"Doe"};    // Object
+
+
+Tips: 
+
+2.1 When adding a number and a string, JavaScript will treat the number as a string.
+
+2.2 Aray will start []
+
+2.3 Object will start {}
+    Example: 
+
+    Phone = {
+        model: 's2';
+        storage: '120gb',
+        display: '5inchi',
+        color: 'black',
+    };
+
+2.4 == means equal but === means all side equal or not
+2.5 null and undefined are not same 

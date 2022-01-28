@@ -1,0 +1,23 @@
+JavaScript Tutorial 05 - Operators
+
+1. Operators are used to add,devide,multiply and concate data. 
+
+Example: 
+    let x = 20;
+    let y = 2;
+    let z = x + y;
+    document.getElementById("demo").innerHTML = z;
+
+2. Prompt used for input data from user 
+
+Example: 
+    let name = prompt('Whats your name?');
+    let age = prompt('Whats your age?');
+    document.getElementById("html").innerHTML = 'I am'+ name + 'and I am'+ age + 'years old';
+    console.log('I am'+ name + 'and I am'+ age + 'years old');
+
+Tips:
+
+1. Multiply need spaceless Operators like a*b not a * b
+
+

@@ -1,0 +1,12 @@
+JavaScript Tutorial 16 - While Loop
+
+1.  Structure: 
+
+let num = 1;
+
+While (num <= 10){
+    console.log('This is while',num); 
+    num++;
+}
+
+document.write("Your loop works fine");

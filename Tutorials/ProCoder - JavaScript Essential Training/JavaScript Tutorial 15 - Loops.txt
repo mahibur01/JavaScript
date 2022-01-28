@@ -1,0 +1,15 @@
+JavaScript Tutorial 15 - Loops
+
+1. Loop is use for do same work more times by a method
+Example: 
+    for (let i=0; i<6; i++){
+    console.log('Hello World'+i);
+    if (i===4) break;
+    };
+
+    Alternative: This way is recomended for small project
+
+    const cars = ['Bus', 'Car', 'Cycle', 'Bike'];
+
+    for (car of cars)
+    console.log(car)

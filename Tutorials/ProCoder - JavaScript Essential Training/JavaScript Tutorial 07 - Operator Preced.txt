@@ -1,0 +1,8 @@
+JavaScript Tutorial 07 - Operator Precedence 
+
+1. Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become 
+the operands of operators with lower precedence.
+
+2. Most valuable for 1st work is first bracket	( … )
+
+3. Logical side 1st will be work + 

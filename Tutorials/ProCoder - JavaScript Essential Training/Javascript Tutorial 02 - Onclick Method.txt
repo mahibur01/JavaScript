@@ -1,0 +1,25 @@
+Javascript Tutorial 02 - Onclick Method
+
+1. Change HTML by JavaScript
+
+    1.1 innerHTML used for change inside html
+
+Example: 
+    <h1 id="html">Hello</h1>
+    <button onclick="document.getElementById('html').innerHTML='Hi'">Click</button>
+
+2. Change CSS by JavaScript
+
+    2.1 style. then need to use proper style elements
+
+Example: 
+    <h1 id="html">Hello</h1>
+    <button onclick="document.getElementById('html').style.color='red'">Click</button>
+    
+3. Change img url by JavaScript
+
+Example: 
+    <img id="image" src="./images/1.png" alt="1image" width="400px" height="250px">
+    <button onclick="document.getElementById('image').src='./images/1.png'">one</button>
+    <button onclick="document.getElementById('image').src='./images/2.png'">two</button>
+    <button onclick="document.getElementById('image').src='./images/3.png'">three</button>

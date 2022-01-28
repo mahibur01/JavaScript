@@ -1,0 +1,40 @@
+JavaScript Tutorial 09 - Events 
+
+1. HTML events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+2. All actions in browswe like click , scroll, hover etc 
+
+Events: 
+
+1. onclick Event Type
+    Example: 
+        <html>
+            <head>   
+                <script type = "text/javascript">
+                    <!--
+                        function sayHello() {
+                        alert("Hello World")
+                        }
+                    //-->
+                </script>      
+            </head>
+            
+            <body>
+                <p>Click the following button and see result</p>      
+                <form>
+                    <input type = "button" onclick = "sayHello()" value = "Say Hello" />
+                </form>      
+            </body>
+        </html>
+
+2. onsubmit event type
+    Example: 
+        <form method = "POST" action = "t.cgi" onsubmit = "return validate()">
+            .......
+             <input type = "submit" value = "Submit" />
+        </form>    
+    
+3. onmouseover and onmouseout
+    Example: 
+        <div onmouseover = "over()" onmouseout = "out()">
+
+4. All events list here https://www.tutorialspoint.com/javascript/javascript_events.htm

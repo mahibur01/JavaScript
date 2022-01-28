@@ -1,0 +1,21 @@
+Javascript Tutorial 03 - JavaScript Syntax
+
+1. Best practice is use JavaScript by another file.
+
+Example: 
+    <body>
+    <script src="js/script.js"></script>
+    </body>
+
+2. JavaScript Values 
+
+    2.1 There are two types of Values
+        2.1.1 - Fixed Values are called literals (It can't be change, fixed Value)
+        2.1.2 - Variable Values are called Variable (It can be change, not fixed Value) 
+
+Example: 
+    var a = 10;
+    var b = 5;
+    z = a + b
+
+    document.getElementById('add').innerHTML = z; 
