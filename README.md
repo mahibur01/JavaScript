@@ -8,8 +8,8 @@
 
 ## All Projects
 
-| Project Name |  Description  |  Live  |
-| :---:        |     :---:      |    :---:      |
+| Project Name |  Description  |  Screenshot  |
+| :---         |     :---:     |  :---: |
 | :watch: digitalClock | This project will show real-time with digital digits | <a href="https://github.com/mahibur01/JavaScript/tree/main/Projects/digitalClock"> <img src="./Projects/digitalClock/screenshot.jpg?raw=true" alt="digitalClock"  width="400" height="200"></a>|
 | :speaker: speechToText | This project will convert your voice to text | <a href="https://github.com/mahibur01/JavaScript/tree/main/Projects/speechToText"> <img src="./Projects/speechToText/screenshot.jpg?raw=true" alt="digitalClock"  width="400" height="200"></a>|
 
