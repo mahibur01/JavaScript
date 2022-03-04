@@ -1,5 +1,5 @@
 
-<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img src="docs/images/logo/re-frame-colour.png?raw=true" alt="re-frame logo"></a></p>
+<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./javascript_banner.jpg?raw=true" alt="re-frame logo"></a></p>
 
 ## Derived Values, Flowing
 
