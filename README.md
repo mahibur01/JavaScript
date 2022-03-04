@@ -1,7 +1,7 @@
 
 <p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img src="./javascript_banner.jpg?raw=true" alt="re-frame logo"></a></p>
 
-## My JavaScript Home
+# My JavaScript Home
 
 > I am sharing my JavaScript learning journey here. I have shared some of my small projects, practice codes, and tutorials, which are given in the form of folders. Hopefully, anyone will understand very easily. Let me know if you have trouble understanding. <br>
 > Reach me by [Email](mahibur.business@gmail.com)
