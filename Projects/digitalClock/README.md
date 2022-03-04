@@ -1,11 +1,17 @@
-<!-- # Digital Clock with JavaScript
+# Digital Clock with JavaScript
 
-[Digital Clock][1] is a part of the Series [_Vanilla JavaScript Project in Bangla_][2] by [JS Bangladesh][3]
+<img src="./screenshot.jpg">
 
-[1]: https://youtu.be/_2duo1cNTpM 'Digital Clock with JavaScript'
-[2]: https://www.youtube.com/watch?v=4Rzm3BE6DL0&list=PL4iFnndHldujaLgJcoO8d4yUlAKBM55GC&ab_channel=JSBangladesh 'Full Playlist'
-[3]: https://jsbangladesh.com 'Official Website'
+## Licence
 
-## Project Screenshot
+No Copyright, feel free to use for learn.
 
-<img src="./screenshot.jpg"> -->
+
+<!-- ## How does it work ?
+
+First, the project include the [Android Things Library](https://developer.android.com/things/sdk/index.html). Then, it is separated into 3 activities :
+ * HomeActivity : just here to launch others activities and to know current GPIO.
+ * ButtonActivity : listen to BCM21 for a input (button) and launch LedActivity when button is pressed.
+ * LedActivity : Output on BCM6 (low energy) and make blink a led.
+ 
+That is the only things that make this little app ! -->
