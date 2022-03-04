@@ -37,6 +37,10 @@ Although re-frame leverages React (via Reagent), it only needs
 React to be the V in MVC, and no more. re-frame takes a different road to the currently-pervasive idea that Views should be causal (colocated queries, ComponentDidMount, hooks, etc).
 In re-frame, events are causal, and views are purely reactive. 
 
+## All Projects
+
+- [ai/size-limit](https://github.com/ai/size-limit#readme) - Project logo, clear description, screenshot, step-by-step installing instructions.
+
 ## Documentation 
 
 The re-frame documentation is [available here](https://day8.github.io/re-frame/).
